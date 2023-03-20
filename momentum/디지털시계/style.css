@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+  background-color: beige;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  justify-content: space-between;
+  transform: translate(-50%);
+  width: 400px;
+}
+
+.time {
+  font-size: 100px;
+}
+
+.divider {
+  font-size: 100px;
+}
