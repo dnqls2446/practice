@@ -8,16 +8,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="open">👉 Click</button>
+    <div class="bg"></div>
+    <button class="open">
+      <img src="../modal/images/w-01-btn.png" alt="앱 다운 받기" />
+    </button>
     <div class="container">
       <div class="modal">
-        <h2>Lorem ipsum, dolor.</h2>
-        <p>
-          sit amet consectetur adipisicing elit. Facere nam necessitatibus, modi
-          inventore illum consequatur quaerat laboriosam dicta quam velit neque
-          fuga sequi nobis ipsa adipisci, tempora vel deleniti? Hic?
-        </p>
-        <button class="close">❌ close</button>
+        <h2>앱 다운로드</h2>
+        <strong>휴대폰으로 앱 다운로드 URL 보내기</strong>
+        <button type="button" class="close"></button>
+        <fieldset>
+          <form>
+            <select name="number" id="phone1">
+              <option value="010">010</option>
+              <option value="010">011</option>
+              <option value="010">012</option>
+              <option value="010">013</option>
+              <option value="010">017</option>
+            </select>
+            <span class="divider">-</span>
+            <input type="tel" />
+            <span class="divider">-</span>
+            <input type="tel" />
+            <button type="submit" class="subimt">발송</button>
+          </form>
+        </fieldset>
+        <strong>QR코드로 다운로드하기</strong>
+        <div class="qr">
+          <img src="../modal/images/download.png" alt="qr코드 이미지" />
+        </div>
+        <div class="bottom-text">
+          <p>KOLON MALL을 모바일에서 쉽고 간편하게 만나보세요!</p>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>
