@@ -11,5 +11,3 @@ function clock() {
 }
 
 setInterval(clock, 1000);
-
-document.title = "time";
