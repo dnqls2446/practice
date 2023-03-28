@@ -1,7 +1,12 @@
-const h1 = document.querySelector(".hello h1");
+const h1 = document.querySelector(".hello");
 
-function handleh1Click() {
-  h1.style.color = "blue";
+function handleTitleClick() {
+  const clickedClass = "clicked";
+  if (h1.className === clickedClass) {
+    h1.className = "";
+  } else {
+    h1.className = clickedClass;
+  }
 }
 
-h1.addEventListener("click", handleh1Click);
+h1.addEventListener("click", handleTitleClick);
