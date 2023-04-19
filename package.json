@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dnqls2446/practice/issues"
   },
-  "homepage": "https://github.com/dnqls2446/practice#readme"
+  "homepage": "https://github.com/dnqls2446/practice#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
 }
